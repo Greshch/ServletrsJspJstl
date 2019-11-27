@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Calculator</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
 
@@ -20,7 +21,7 @@
         <label for="b">param2</label>
         <input type="text" name="b" id="b">
         <br>
-        <select name="do" id="do">
+        <select name="do" id="do" class="form-style-2">
             <option value="add">add</option>
             <option value="dif">diference</option>
             <option value="pro">product</option>
